@@ -1,22 +1,46 @@
 # Dieser Workflow baut ein Java Projekt mit Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: CI mit Maven
+name: CI (Maven)
 
 on:
   push:
     branches: [ master ]
 
 jobs:
+  compile:
+    runs-on: ubuntu-latest
+    name: Running Java ${{ matrix.java }} compile
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Compile code
+        run: mvn compiled
+    
+    test:
+      runs-on: ubuntu-latest
+      name: Running tests
+      needs: compile
+      steps:
+        - uses: actions/checkout@v2
+        - name: Set up JDK 1.8
+          uses: actions/setup-java@v1
+          with:
+            java-version: 1.8
+        - name: Run unit tests
+          run: mvn test
+    
   build:
-
-    runs-on: windows-latest
-
+    runs-on: ubuntu-latest
+    name: Run mvn build 
     steps:
     - uses: actions/checkout@v2
-    - name: JDK 1.8 Setup
+    - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Maven Projekt Build
-      run: mvn -B source-001.java --file pom.xml
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml -Dmaven.test.skip=true
