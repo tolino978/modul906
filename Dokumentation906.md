@@ -13,7 +13,7 @@
 ## 	Planung
 Für die Planung verwenden wir Github.
 
-[Bild 1]: bilder/planung.jpg  "Planung"
+[Bild 1]: Bilder/planung.jpg  "Planung"
 
 
 ## Inbetriebnahme des Containers
