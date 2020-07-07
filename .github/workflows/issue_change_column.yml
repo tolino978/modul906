@@ -12,6 +12,6 @@ jobs:
       - name: Move Issue to Column
         uses: alex-page/github-project-automation-plus@v0.2.4
         with:
-          project: Java Application
+          project: Java-Application
           column: Work in Progress
           repo-token: ${{ secrets.GITHUB_TOKEN }}
