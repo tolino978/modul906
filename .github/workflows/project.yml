@@ -16,4 +16,4 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.0
       if: github.event.action == 'opened'
       with:
-        project: 'https://https://github.com/tolino978/modul906/projects/7'
+        project: 'https://github.com/tolino978/modul906/projects/7'
