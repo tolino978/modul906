@@ -1,3 +1,5 @@
+![CI (Maven)](https://github.com/tolino978/modul906/workflows/CI%20(Maven)/badge.svg)
+
 # DevOPs Wahlmodul 906
 
 ## Inhaltsverzeichnis
