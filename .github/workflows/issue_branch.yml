@@ -3,15 +3,28 @@ name: Issue Branch
 on:
     issues:
         types: [assigned]
-    issue_comment:
-        types: [created]
 
 jobs:
+    automate-project-columns:
+        runs-on: ubuntu-latest
+        name: Move Issue to WiP Column
+        steps:
+        - name: Move Issue to Column
+          uses: alex-page/github-project-automation-plus@v0.2.4
+          with:
+             project: Java-Application
+             column: Work in Progress
+             repo-token: ${{ secrets.GITHUB_TOKEN }}
+         
     create_issue_branch_job:
         name: Create Branch for Issue
         runs-on: ubuntu-latest
+        needs: automate-project-columns
         steps:
         - name: Create Branch
           uses: robvanderleek/create-issue-branch@master
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
+    
+    
