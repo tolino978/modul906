@@ -17,3 +17,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/tolino978/modul906/projects/7'
+        column_name: 'To Do' 
