@@ -6,11 +6,11 @@ on:
 
 jobs:
   automate-project-columns:
-    name: Move Issue to WiP Column
     runs-on: ubuntu-latest
+    name: Move Issue to WiP Column
     steps:
       - name: Move Issue to Column
-      - uses: alex-page/github-project-automation-plus@v0.2.4
+        uses: alex-page/github-project-automation-plus@v0.2.4
         with:
           project: Java Application
           column: Work in Progress
