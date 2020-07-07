@@ -1,0 +1,19 @@
+name: Auto Assign to Project
+
+on:
+  issues:
+    types: [opened, labeled]
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_one_project:
+    runs-on: ubuntu-latest
+    name: Assign Issue to Project
+    steps:
+    - name: Assign new issues Project
+      uses: srggrs/assign-one-project-github-action@1.2.0
+      if: github.event.action == 'opened'
+      with:
+        project: 'https://https://github.com/tolino978/modul906/projects/7'
