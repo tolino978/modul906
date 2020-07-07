@@ -35,7 +35,8 @@ jobs:
     
   build:
     runs-on: ubuntu-latest
-    name: Run mvn build 
+    name: Run mvn build
+    needs: test 
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
@@ -48,6 +49,7 @@ jobs:
   create:
     name: Create Release
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
