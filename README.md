@@ -1,4 +1,6 @@
 ![CI/CD Pipeline](https://github.com/tolino978/modul906/workflows/CI/CD%20Pipeline/badge.svg)
+![Auto Assign to Project](https://github.com/tolino978/modul906/workflows/Auto%20Assign%20to%20Project/badge.svg)
+![Issue Branch](https://github.com/tolino978/modul906/workflows/Issue%20Branch/badge.svg)
 
 # DevOPs Wahlmodul 906
 
