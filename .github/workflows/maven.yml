@@ -47,8 +47,8 @@ jobs:
       run: mvn -B package --file pom.xml -Dmaven.test.skip=true
  
   create:
-    name: Create Release
     runs-on: ubuntu-latest
+    name: Create Release
     needs: build
     steps:
       - name: Checkout code
