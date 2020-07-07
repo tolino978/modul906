@@ -1,4 +1,4 @@
-![CI/CD Pipeline](https://github.com/tolino978/modul906/workflows/CI/CD%20Pipeline/badge.svg?event=deployment)
+![CI/CD Pipeline](https://github.com/tolino978/modul906/workflows/CI/CD%20Pipeline/badge.svg)
 
 # DevOPs Wahlmodul 906
 
