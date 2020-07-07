@@ -1,0 +1,17 @@
+name: Move Issue to WiP
+
+on:
+  issues:
+    types: [assigned]
+
+jobs:
+  automate-project-columns:
+    name: Move Issue to WiP Column
+    runs-on: ubuntu-latest
+    steps:
+      - name: Move Issue to Column
+      - uses: alex-page/github-project-automation-plus@v0.2.4
+        with:
+          project: Java Application
+          column: Work in Progress
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
