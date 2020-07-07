@@ -10,7 +10,7 @@ on:
 jobs:
   compile:
     runs-on: ubuntu-latest
-    name: (CI) Running Java ${{ matrix.java }} compile
+    name: (CI) Running Java Compile
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8
@@ -35,7 +35,7 @@ jobs:
     
   build:
     runs-on: ubuntu-latest
-    name: (CD) Building Application
+    name: (Build) Building Application
     needs: test 
     steps:
     - uses: actions/checkout@v2
