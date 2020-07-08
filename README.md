@@ -42,7 +42,11 @@ Und so sieht das dann im Action Panel von GitHub aus
 ### Nando
 Ich habe in diesem Teil des Moduls extrem viel dazu gelernt. Ich konnte ein erstes Mal so eine DevOps Pipeline erstellen und so extrem wertvolle Erfahrung sammeln. Ebenfalls habe ich GitHub das erste Mal so richtig kennengelernt und konnte mein Wissen in Bezug auf GitHub mit DevOps massiv erweitern. Ich bin nach dem eher trocknen Theorie Teil des Moduls sehr positiv beeindruckt vom praktischen Teil, da ich jetzt wirklich das Gefühl habe, dass ich mich sehr mit diesem Thema auseinander gesetzt habe und ein sehr solides Grundwissen aufgebaut habe. Im grossen und ganzen bin ich sehr zufrieden mit diesem Modul und kann es gut weiterempfehlen.
 ### Marc
+Ich habe sehr viel gelernt in diesem Modul. Ich hatte zu Beginn des Moduls keine Ahnung wie gross das Thema DevOps ist.
+ICh bin froh konnnte ich dies nun genauer kennenlernen. Alles mit GitHub zu machen war anfangs eine Herausforderung, da es neben
+der offiziellen Dokumentation keine weitere Beispiele im Internet gab. Was schlussendlich gut war, da wir uns so mehr in das Thema vertiefen mussten.
 
+Ich habe viel über DevOps als Struktur gelernt so wie auch einen wichtigen Einblick in die Tools welche für DevOps verwendet werden.
 ```
 title: Dokumentation einer DevOps Umgebung Modul 906
 author: Nando Rigonalli, Marc De Pra
