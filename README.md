@@ -2,6 +2,7 @@
 ![Auto Assign to Project](https://github.com/tolino978/modul906/workflows/Auto%20Assign%20to%20Project/badge.svg)
 ![Issue Branch](https://github.com/tolino978/modul906/workflows/Issue%20Branch/badge.svg)
 
+
 # DevOPs Wahlmodul 906
 
 ## Inhaltsverzeichnis
@@ -36,6 +37,11 @@ Hier ist der GitHub Actions Code
 ![grafik](https://user-images.githubusercontent.com/45803151/86917345-3b3c9c00-c125-11ea-9ab5-18df8f936626.png)
 Und so sieht das dann im Action Panel von GitHub aus
 ![grafik](https://user-images.githubusercontent.com/45803151/86917517-75a63900-c125-11ea-875f-d4cc5dda3197.png)
+
+## K7 - Reflexion
+### Nando
+Ich habe in diesem Teil des Moduls extrem viel dazu gelernt. Ich konnte ein erstes Mal so eine DevOps Pipeline erstellen und so extrem wertvolle Erfahrung sammeln. Ebenfalls habe ich GitHub das erste Mal so richtig kennengelernt und konnte mein Wissen in Bezug auf GitHub mit DevOps massiv erweitern. Ich bin nach dem eher trocknen Theorie Teil des Moduls sehr positiv beeindruckt vom praktischen Teil, da ich jetzt wirklich das Gefühl habe, dass ich mich sehr mit diesem Thema auseinander gesetzt habe und ein sehr solides Grundwissen aufgebaut habe. Im grossen und ganzen bin ich sehr zufrieden mit diesem Modul und kann es gut weiterempfehlen.
+### Marc
 
 ```
 title: Dokumentation einer DevOps Umgebung Modul 906
