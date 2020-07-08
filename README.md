@@ -6,30 +6,8 @@
 
 ## Inhaltsverzeichnis
 
-- Planung
-- Versionsverwaltung
-- Codebetrieb
-- Automatisierte Builds
-- Kontinuierliche Integration
-- Delivery
-
-
-## 	Planung
-Für die Planung verwenden wir Github.
-
-[Bild 1]: Bilder/planung.jpg  "Planung"
-
-
-## Versionsverwaltung
-Die Versionsverwaltung von unserem Team sind auf Github dokumentiert und abgelegt.
-
-Bild hier:
-
-## Codebetrieb
-Der Codebetrieb
-
-
-## Automatisierte Builds
+#K1
+![grafik](https://user-images.githubusercontent.com/45803151/86917271-16e0bf80-c125-11ea-89f9-7b5c4d9133b0.png)
 
 ```
 title: Dokumentation einer DevOps Umgebung Modul 906
