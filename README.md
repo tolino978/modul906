@@ -16,7 +16,6 @@ So sieht unsere Projektübersicht aus
 ## K2
 Hier ist unsere GitHub Übersicht
 ![grafik](https://user-images.githubusercontent.com/45803151/86917310-28c26280-c125-11ea-9568-53cccc33c18f.png)
-release bild
 ## K3
 So sieht es in unserem Editor aus
 ![grafik](https://user-images.githubusercontent.com/45803151/86918667-485a8a80-c127-11ea-9dc5-f367516813c7.png)
@@ -25,7 +24,6 @@ Hier ist der GitHub Actions Code
 ![grafik](https://user-images.githubusercontent.com/45803151/86917419-57403d80-c125-11ea-9ae6-9f21bf24cf4b.png)
 Und so sieht das dann im Action Panel von GitHub aus
 ![grafik](https://user-images.githubusercontent.com/45803151/86917329-31b33400-c125-11ea-99d7-d8ff69e1df21.png)
-mail bild
 ## K5
 Hier ist der GitHub Actions Code
 ![grafik](https://user-images.githubusercontent.com/45803151/86917445-5effe200-c125-11ea-831d-7dbd7f89da7e.png)
